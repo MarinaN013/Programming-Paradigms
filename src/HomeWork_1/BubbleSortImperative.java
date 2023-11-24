@@ -4,8 +4,6 @@ package HomeWork_1;
 сортировки числа в списке в порядке убывания. Можно использовать любой алгоритм сортировки.*/
 
 
-import java.util.Arrays;
-
 public class BubbleSortImperative {
     public static void bubbleSort(int[] sortArr){
         for (int i = 0; i < sortArr.length - 1; i++) {
