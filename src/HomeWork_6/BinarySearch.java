@@ -22,14 +22,14 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        int target = 6;
+        int target = 10;
 
         int index = binarySearch(array, target);
 
         if (index != -1) {
             System.out.println("Искомый элемент найден в индексе: " + index);
         } else {
-            System.out.println("Искомый элемент не найден.");
+            System.out.println("Искомый элемент не найден. " + -1);
         }
     }
 }
